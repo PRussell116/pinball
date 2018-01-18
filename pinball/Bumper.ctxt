@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ radius\ machine
+comment0.target=Bumper(int,\ int,\ int,\ Machine)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Bumper\r\n
+numComments=1

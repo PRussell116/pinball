@@ -1,0 +1,5 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ radius\ machine
+comment0.target=Hole(int,\ int,\ int,\ Machine)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ hole\r\n\ @param\ xPos\ the\ horizontal\ coordinate\ of\ the\ object\r\n\ @param\ yPos\ \ the\ vertical\ coordinate\ of\ the\ object\r\n\ @param\ objectRadius\ \ the\ radius\ (in\ pixels)\ of\ the\ object\r\n\ @param\ theMachine\ \ the\ machine\ this\ object\ is\ in\r\n
+numComments=1

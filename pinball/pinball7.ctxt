@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ minXVel\ minYVel\ maxXVel\ maxYVel\ objectColor\ radius\ machine
+comment0.target=pinball7(int,\ int,\ int,\ int,\ int,\ int,\ java.awt.Color,\ int,\ Machine)
+comment0.text=\r\n\ constructor\ for\ pinball\ 7\r\n\ \r\n\ @param\ xPos\ \ the\ horizontal\ coordinate\ of\ the\ object\r\n\ @param\ yPos\ \ the\ vertical\ coordinate\ of\ the\ object\r\n\ @param\ minXVel\ the\ minimum\ horizontal\ velocity\ of\ the\ object\r\n\ @param\ minYVel\ the\ mimimum\ vertical\ velocity\ of\ the\ object\r\n\ @param\ MaxXVel\ the\ maximum\ horizontal\ velocity\ of\ the\ object\r\n\ @param\ MaxXVel\ the\ maximum\ vertical\ velocity\ of\ the\ object\r\n\ \ @param\ objectColor\ \ the\ color\ of\ the\ object\r\n\ \ @param\ radius\ \ the\ radius\ (in\ pixels)\ of\ the\ object\r\n\ \ @param\ theMachine\ \ the\ machine\ this\ object\ is\ in\r\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\r\n\ method\ move\ calls\ the\ move\ method\ in\ pinball\ then\ calls\ aditional\ functionality\ methods\r\n
+comment2.params=
+comment2.target=void\ wallBounce()
+comment2.text=\r\n\ checks\ if\ the\ ball\ is\ touching\ and\ wall\ and\ if\ it\ is\ calls\ method\ to\ \r\n
+comment3.params=
+comment3.target=void\ changeVel()
+comment3.text=\r\n\ chnages\ the\ velocity\ of\ the\ balls\ depending\ on\ thier\ direction\ and\ what\ speed\ they\ are\ currently\ at\r\n
+comment4.params=
+comment4.target=void\ ballBounce()
+comment4.text=\r\n\ checks\ if\ touching\ another\ ball\ and\ if\ it\ is\ call\ the\ change\ colour\ method\r\n
+comment5.params=
+comment5.target=void\ changeCol()
+comment5.text=\r\n\ chnages\ the\ colour\ of\ the\ object\ using\ the\ index\ of\ the\ color\ arraylist\r\n
+numComments=6

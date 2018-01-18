@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ objectColor\ objectRadius\ theMachine
+comment0.target=PinballObject(int,\ int,\ java.awt.Color,\ int,\ Machine)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Pinball_Obj\r\n\ \r\n\ @param\ xPos\ \ the\ horizontal\ coordinate\ of\ the\ object\r\n\ @param\ yPos\ \ the\ vertical\ coordinate\ of\ the\ object\r\n\ @param\ objectRadius\ \ the\ radius\ (in\ pixels)\ of\ the\ object\r\n\ @param\ objectColor\ \ the\ color\ of\ the\ object\r\n\ @param\ theMachine\ \ the\ machine\ this\ object\ is\ in\r\n
+comment1.params=
+comment1.target=int\ getX()
+comment1.text=\r\n\ return\ the\ horizontal\ position\ of\ this\ object\r\n
+comment2.params=
+comment2.target=int\ getY()
+comment2.text=\r\n\ return\ the\ vertical\ position\ of\ this\ object\r\n
+comment3.params=
+comment3.target=int\ getRadius()
+comment3.text=\r\n\ return\ the\ radius\ of\ this\ object\r\n
+comment4.params=
+comment4.target=int\ getDiameter()
+comment4.text=\r\n\ return\ the\ diameter\ of\ this\ object\r\n
+comment5.params=
+comment5.target=double\ getArea()
+comment6.params=
+comment6.target=java.awt.Color\ getColor()
+comment6.text=\r\n\ return\ the\ colour\ of\ this\ object\r\n
+numComments=7

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Demo()
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Demo\r\n
+comment1.params=
+comment1.target=void\ main()
+comment1.text=\r\n\ Main\ part\ of\ the\ demo\ creates\ all\ the\ objects\ and\ then\ signals\ the\ machine\ to\ begin\ the\ game\r\n
+comment2.params=
+comment2.target=void\ testHole()
+comment2.text=\r\n\ method\ to\ test\ the\ functionality\ of\ the\ holes\ with\ the\ balls\r\n
+comment3.params=
+comment3.target=void\ testBumper()
+comment3.text=\r\n\ method\ to\ test\ the\ functionality\ of\ the\ bumpers\ with\ the\ balls\r\n
+comment4.params=
+comment4.target=void\ testPointsAndGap()
+comment4.text=\r\n\ method\ to\ test\ the\ functionality\ gap\ and\ the\ points\ system\r\n
+numComments=5

@@ -1,0 +1,20 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ xVel\ yVel\ objectColor\ radius\ machine
+comment0.target=pinball5(int,\ int,\ int,\ int,\ java.awt.Color,\ int,\ Machine)
+comment0.text=\r\n\ Constructor\ for\ class\ pinball5\r\n\ @param\ xPos\ \ the\ horizontal\ coordinate\ of\ the\ object\r\n\ @param\ yPos\ \ the\ vertical\ coordinate\ of\ the\ object\r\n\ @param\ xVel\ the\ horizontal\ velocity\ of\ the\ object\r\n\ @param\ yVel\ the\ vertical\ velocity\ of\ the\ object\r\n\ \ @param\ objectColor\ \ the\ color\ of\ the\ object\r\n\ \ @param\ radius\ \ the\ radius\ (in\ pixels)\ of\ the\ object\r\n\ \ @param\ theMachine\ \ the\ machine\ this\ object\ is\ in\r\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\r\n\ calls\ the\ move\ method\ in\ pinball\ class\ then\ modifies\ calling\ to\ other\ methods\ in\ pinball5\r\n
+comment2.params=
+comment2.target=void\ wallBounce()
+comment2.text=\r\n\ method\ that\ is\ called\ when\ it\ hits\ a\ wall,\ chnages\ location\ randomly\ to\ appear\ that\ it\r\n\ bounces\ off\ at\ a\ random\ angle\ \r\n
+comment3.params=
+comment3.target=void\ randomDirection()
+comment3.text=\r\n\ method\ to\ decide\ the\ size\ of\ the\ random\ offset\ from\ 1\ ->\ 50\ \ \r\n
+comment4.params=
+comment4.target=void\ ballBounce()
+comment4.text=\r\n\ method\ to\ check\ if\ the\ balls\ are\ touching\ and\ if\ they\ are\ increase\ the\ size\ by\ 10%\ if\ the\ ball\ is\ not\ alrady\ big\r\n\ if\ it\ is\ not\ big\ it\ is\ decreased\ by\ 10%\r\n\ \r\n\ checks\ if\ the\ balls\ are\ overlapping\ and\ if\ move\ the\ balls\ inorder\ to\ counter\ act\ this\ by\ moving\ the\ balls\r\n
+comment5.params=
+comment5.target=void\ checkBumperOverLap()
+comment5.text=\r\n\ method\ to\ check\ if\ the\ ball\ that\ has\ grown\ is\ overlapping\r\n\ if\ overlaping\ move\ the\ ball\r\n
+numComments=6

@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.params=xPos\ yPos\ xVel\ yVel\ objectColor\ radius\ machine
+comment0.target=pinball(int,\ int,\ int,\ int,\ java.awt.Color,\ int,\ Machine)
+comment0.text=\r\n\ Constructor\ for\ objects\ of\ class\ Bumper\r\n\ \r\n\ @param\ xPos\ the\ horizontal\ coordiante\ of\ the\ object\r\n\ @param\ yPos\ the\ vertical\ coordiante\ of\ the\ object\r\n\ @param\ xVel\ \ the\ horizontal\ speed\ of\ the\ object\r\n\ @param\ yVel\ \ the\ vertical\ speed\ of\ the\ object\r\n\ @param\ objectRadius\ \ the\ radius\ (in\ pixels)\ of\ the\ object\r\n\ @param\ objectColor\ \ the\ color\ of\ the\ object\r\n\ @param\ theMachine\ \ the\ machine\ this\ object\ is\ in\r\n
+comment1.params=
+comment1.target=void\ move()
+comment1.text=\r\n\ method\ to\ move\ the\ ball,\ the\ ball\ checks\ for\ other\ objects\ and\ \r\n\ then\ has\ its\ points\ drawn\ on\ it\ after\ it\ moves\r\n
+comment2.params=
+comment2.target=void\ checkWalls()
+comment2.text=\r\n\ method\ for\ the\ ball\ to\ check\ if\ it\ is\ touching\ the\ walls\r\n\ add\ 1\ point\ if\ touching\ wall\r\n\r\n
+comment3.params=
+comment3.target=void\ checkBumpers()
+comment3.text=\r\n\ method\ to\ check\ if\ the\ balls\ are\ touching\ any\ of\ the\ items\ stored\ in\ machine's\ arraylist\ bumpers\r\n\ add\ 2\ points\ if\ touching\r\n\ reverse\ speed\ if\ touching\r\n
+comment4.params=
+comment4.target=void\ checkHoles()
+comment4.text=\r\n\ method\ to\ check\ if\ the\ balls\ are\ touching\ any\ of\ the\ items\ stored\ in\ machine's\ arraylist\ holes\r\n\ set\ points\ to\ 0\r\n\ set\ in\ hole\ to\ true\ if\ the\ area\ of\ the\ ball\ is\ less\ than\ that\ of\ the\ hole\ (will\ get\ removed)\r\n
+comment5.params=
+comment5.target=void\ checkBalls()
+comment5.text=\r\n\ method\ to\ check\ if\ the\ balls\ are\ touching\ any\ of\ the\ items\ stored\ in\ machine's\ arraylist\ pinballs\r\n\ increase\ points\ by\ 5\r\n\ reverse\ speeds\r\n
+comment6.params=
+comment6.target=void\ checkInGap()
+comment6.text=\r\n\ method\ to\ check\ if\ the\ ball\ is\ the\ the\ gap\ \r\n\ if\ in\ the\ gap\ machine\ ends\ the\ game\r\n\ \r\n
+comment7.params=
+comment7.target=int\ getPoints()
+comment8.params=
+comment8.target=boolean\ getIfInHole()
+numComments=9
